@@ -2,25 +2,24 @@ import type { TaskKey } from '@/lib/site-config'
 
 export const siteContent = {
   navbar: {
-    tagline: 'Independent reading platform',
+    tagline: 'Image + Social Profile platform',
   },
   footer: {
-    tagline: 'Stories, resources, and discoverable posts',
+    tagline: 'Image + Social Profile platform',
   },
   hero: {
     badge: 'Latest stories and visuals',
     title: ['A thoughtful home for', 'stories, visuals, and discovery.'],
-    description:
-      'Explore fresh articles, image-led posts, and discoverable content across the platform through a calmer and clearer browsing experience.',
+    description: 'A image social profile experience for Oscarcrea—share your gallery, grow your presence, and browse in a visual-first feed.',
     primaryCta: {
-      label: 'Read latest stories',
-      href: '/articles',
+      label: 'Explore gallery',
+      href: '/gallery',
     },
     secondaryCta: {
-      label: 'Explore visuals',
-      href: '/images',
+      label: 'Learn more',
+      href: '/about',
     },
-    searchPlaceholder: 'Search stories, visuals, listings, and more',
+    searchPlaceholder: 'Search visuals, styles, and creators',
     focusLabel: 'Focus',
     featureCardBadge: 'latest cover rotation',
     featureCardTitle: 'Latest posts shape the visual identity of the homepage.',
@@ -30,8 +29,7 @@ export const siteContent = {
   home: {
     metadata: {
       title: 'Stories, visuals, and discoverable content',
-      description:
-        'Explore articles, images, listings, and curated posts through a cleaner reading-first experience.',
+      description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
       openGraphTitle: 'Stories, visuals, and discoverable content',
       openGraphDescription:
         'Discover articles, visual posts, and connected content through a calmer reading-first experience.',
@@ -57,21 +55,20 @@ export const siteContent = {
     },
     secondaryLink: {
       label: 'See visuals',
-      href: '/images',
+      href: '/gallery',
     },
   },
   cta: {
     badge: 'Start exploring',
-    title: 'Explore articles, visuals, and resources through one connected experience.',
-    description:
-      'Move between articles, image-led posts, listings, and resources through one clearer and more connected visual system.',
+    title: 'Explore the gallery and shape your public image profile in one place.',
+    description: 'Share photos, build your visual identity, and discover work from other creators—without directory or classified noise.',
     primaryCta: {
-      label: 'Get Started Free',
-      href: '/register',
+      label: 'Open gallery',
+      href: '/gallery',
     },
     secondaryCta: {
-      label: 'Contact Sales',
-      href: '/contact',
+      label: 'About',
+      href: '/about',
     },
   },
   taskSectionHeading: 'Latest {label}',
@@ -81,31 +78,31 @@ export const siteContent = {
 export const taskPageMetadata: Record<Exclude<TaskKey, 'comment' | 'org' | 'social'>, { title: string; description: string }> = {
   article: {
     title: 'Articles and stories',
-    description: 'Read articles, stories, guides, and long-form posts across topics and interests.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
   listing: {
     title: 'Listings and discoverable pages',
-    description: 'Explore listings, services, brands, and structured pages organized for easier browsing.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
   classified: {
     title: 'Classifieds and announcements',
-    description: 'Browse classifieds, offers, notices, and time-sensitive posts across categories.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
   image: {
     title: 'Images and visual posts',
-    description: 'Explore image-led posts, galleries, and visual stories from across the platform.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
   profile: {
     title: 'Profiles and public pages',
-    description: 'Discover public profiles, brand pages, and identity-focused posts in one place.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
   sbm: {
     title: 'Curated links and saved resources',
-    description: 'Browse useful links, saved references, and curated resources organized for discovery.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
   pdf: {
     title: 'PDFs and downloadable resources',
-    description: 'Open reports, documents, and downloadable resources shared across the platform.',
+    description: 'A Image + Social Profile site for Oscarcrea, built for clean discovery and structured publishing.',
   },
 }
 
@@ -135,7 +132,7 @@ export const taskIntroCopy: Record<
     ],
     links: [
       { label: 'Explore listings', href: '/listings' },
-      { label: 'Open images', href: '/images' },
+      { label: 'Open gallery', href: '/gallery' },
       { label: 'Browse resources', href: '/pdf' },
     ],
   },
@@ -156,13 +153,13 @@ export const taskIntroCopy: Record<
     title: 'Image-led posts and visual stories',
     paragraphs: [
       'Images take the lead in this section through galleries, visual posts, and story-led content where imagery carries the experience.',
-      'These posts connect with articles, listings, and other sections so visuals can act as entry points into deeper content.',
-      'Browse the latest visual updates, then continue into related stories or supporting pages for more context.',
+      'This lane is tuned for an image social profile: your work stays in focus without unrelated directory or classified surfaces.',
+      'Browse the latest visual updates, then continue into about or contact when you want more context about the platform.',
     ],
     links: [
-      { label: 'Read articles', href: '/articles' },
-      { label: 'Explore listings', href: '/listings' },
-      { label: 'Open classifieds', href: '/classifieds' },
+      { label: 'About', href: '/about' },
+      { label: 'Contact', href: '/contact' },
+      { label: 'Home', href: '/' },
     ],
   },
   profile: {
@@ -175,7 +172,7 @@ export const taskIntroCopy: Record<
     links: [
       { label: 'Open listings', href: '/listings' },
       { label: 'Read articles', href: '/articles' },
-      { label: 'Browse images', href: '/images' },
+      { label: 'Browse gallery', href: '/gallery' },
     ],
   },
   sbm: {
